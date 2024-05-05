@@ -1,0 +1,11 @@
+* {
+  font-family: jost;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url('./istockphoto-954089838-612x612.jpg');
+    background-size: 100%;
+}
