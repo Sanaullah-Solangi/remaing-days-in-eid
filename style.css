@@ -24,7 +24,7 @@ p {
   background-color: rgba(0, 0, 0, 0.4);
   width: fit-content;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 0px;
   width: 500px;
 }
 .eidUlAdha > .eidTime {
@@ -37,4 +37,18 @@ p {
   padding: 10px;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media (width <= 530px) {
+  .eidUlAdha {
+    width: 90%;
+  }
+}
+
+@media (width <= 400px) {
+  .eidUlAdha {
+    width: 100%;
+  }
+  .eidUlAdha > p {
+    font-size: 1rem;
+  }
 }
